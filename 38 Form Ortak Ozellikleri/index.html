@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kayıt ol</title>
+    </head>
+    <body>
+
+        <form action="kayitol.html" method="get"  autocomplete="on">
+            Kayıt olmak için gerekli bilgileri girin!
+            <table>
+                <tr>
+                    <td>Ad Soyad</td>
+                    <td><input type="text" name="adsoyad" size="20" maxlength="30" 
+                        value="Default İsim" autofocus required></td>
+                </tr>
+
+                <tr>
+                    <td>Email adresi</td>
+                    <td><input type="email" name="email" 
+                        placeholder="eposta@epost.com" size="20" maxlength="30" required></td>
+                </tr>
+                <tr>
+                    <td>Telefon numarası</td>
+                    <td><input type="number" name="number"  maxlength="11" required></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="submit" value="Kayıt ol"
+                        disabled> <input type="reset" value="Sıfırla"></td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </body>
+</html>
